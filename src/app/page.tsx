@@ -134,7 +134,7 @@ export default function Home() {
     const userMessage = input.trim()
     const files = [...uploadedFiles]
     setInput('')
-    setUploadedFiles([]
+    setUploadedFiles([])
     
     // Verifica se é modo carrossel
     const isCarousel = carouselMode && files.length > 1 && files.every(f => f.type.startsWith('image'))
@@ -341,7 +341,7 @@ export default function Home() {
                                 : 'bg-white/50'
                             }`}
                           />
-                        ))}
+                        ))}}}}}}}
                       </div>
                       
                       {/* Contador */}
@@ -451,7 +451,7 @@ export default function Home() {
                     ×
                   </button>
                 </Badge>
-              )))}
+              ))}
             </div>
           </div>
         </div>
